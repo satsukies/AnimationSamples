@@ -25,15 +25,26 @@
       android:layout_height="wrap_content"
       android:layout_below="@id/button_simple_transition"
       android:layout_centerHorizontal="true"
+      android:layout_marginTop="16dp"
       android:text="Simple Shared Element Transition"
+      />
+
+    <Button
+      android:id="@+id/button_simple_shared_code"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/button_simple_shared"
+      android:layout_centerHorizontal="true"
+      android:text="Simple Shared Element Transition \nwith codes"
       />
 
     <Button
       android:id="@+id/button_exclude_shared"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_below="@id/button_simple_shared"
+      android:layout_below="@id/button_simple_shared_code"
       android:layout_centerHorizontal="true"
+      android:layout_marginTop="16dp"
       android:text="Simple Shared Element Transition \nwithout statusbar"
       />
 

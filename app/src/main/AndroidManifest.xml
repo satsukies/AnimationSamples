@@ -30,6 +30,8 @@
       android:name=".simple_shared_exclude.ExcludeSharedSecondActivity"
       android:theme="@style/AppTheme.Exclude"
       />
+    <activity android:name=".simple_shared_code.SimpleSharedCodeFirstActivity" />
+    <activity android:name=".simple_shared_code.SimpleSharedCodeSecondActivity"></activity>
   </application>
 
 </manifest>
