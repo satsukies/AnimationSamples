@@ -2,7 +2,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:app="http://schemas.android.com/apk/res-auto"
   xmlns:tools="http://schemas.android.com/tools"
-  tools:context="sample.satsukies.transitionsamples.MainActivity"
+  tools:context="sample.satsukies.transitionsamples.simple_shared.SimpleSharedActivity"
   >
 
   <RelativeLayout
@@ -10,24 +10,29 @@
     android:layout_height="match_parent"
     >
 
-    <Button
-      android:id="@+id/button_simple_transition"
+    <TextView
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_alignParentTop="true"
-      android:layout_centerHorizontal="true"
-      android:text="Simple Transition"
+      android:layout_centerInParent="true"
+      android:text="Simple shared element transition"
       />
 
     <Button
-      android:id="@+id/button_simple_shared"
+      android:id="@+id/button_go"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_below="@id/button_simple_transition"
+      android:layout_alignParentBottom="true"
       android:layout_centerHorizontal="true"
-      android:text="Simple Shared Element Transition"
+      android:text="Open"
       />
 
+    <ImageView
+      android:id="@+id/image"
+      android:layout_width="96dp"
+      android:layout_height="96dp"
+      android:src="@mipmap/ic_launcher"
+      android:transitionName="image"
+      />
 
   </RelativeLayout>
 

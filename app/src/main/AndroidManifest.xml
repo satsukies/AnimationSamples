@@ -19,7 +19,9 @@
       </intent-filter>
     </activity>
     <activity android:name=".simple.SimpleFirstActivity" />
-    <activity android:name=".simple.SimpleSecondActivity"></activity>
+    <activity android:name=".simple.SimpleSecondActivity" />
+    <activity android:name=".simple_shared.SimpleSharedFirstActivity" />
+    <activity android:name=".simple_shared.SimpleSharedSecondActivity" />
   </application>
 
 </manifest>
