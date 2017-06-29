@@ -16,7 +16,8 @@ public class MainActivity extends AppCompatActivity {
 
     binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
 
-    binding.buttonSimpleTransition.setOnClickListener(
-        v -> startActivity(new Intent(this, SimpleFirstActivity.class)));
+    binding.buttonSimpleTransition.setOnClickListener(v -> {
+      startActivity(new Intent(this, SimpleFirstActivity.class));
+    });
   }
 }

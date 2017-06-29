@@ -1,5 +1,6 @@
 package sample.satsukies.transitionsamples.simple;
 
+import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -14,5 +15,8 @@ public class SimpleFirstActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
 
     binding = DataBindingUtil.setContentView(this, R.layout.activity_simple_first);
+
+    binding.buttonGo.setOnClickListener(
+        v -> startActivity(new Intent(this, SimpleSecondActivity.class)));
   }
 }
