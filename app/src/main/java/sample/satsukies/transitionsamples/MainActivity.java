@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import sample.satsukies.transitionsamples.custom_shared.CustomSharedFirstActivity;
 import sample.satsukies.transitionsamples.databinding.ActivityMainBinding;
 import sample.satsukies.transitionsamples.simple.SimpleFirstActivity;
 import sample.satsukies.transitionsamples.simple_shared.SimpleSharedFirstActivity;
@@ -30,5 +31,8 @@ public class MainActivity extends AppCompatActivity {
 
     binding.buttonExcludeShared.setOnClickListener(
         v -> startActivity(new Intent(this, ExcludeSharedFirstActivity.class)));
+
+    binding.buttonCustomShared.setOnClickListener(
+        v -> startActivity(new Intent(this, CustomSharedFirstActivity.class)));
   }
 }

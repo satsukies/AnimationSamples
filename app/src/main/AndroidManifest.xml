@@ -31,7 +31,15 @@
       android:theme="@style/AppTheme.Exclude"
       />
     <activity android:name=".simple_shared_code.SimpleSharedCodeFirstActivity" />
-    <activity android:name=".simple_shared_code.SimpleSharedCodeSecondActivity"></activity>
+    <activity android:name=".simple_shared_code.SimpleSharedCodeSecondActivity" />
+    <activity
+      android:name=".custom_shared.CustomSharedFirstActivity"
+      android:theme="@style/AppTheme.Customize"
+      />
+    <activity
+      android:name=".custom_shared.CustomSharedSecondActivity"
+      android:theme="@style/AppTheme.Customize"
+      />
   </application>
 
 </manifest>

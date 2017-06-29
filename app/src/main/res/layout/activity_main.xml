@@ -48,6 +48,16 @@
       android:text="Simple Shared Element Transition \nwithout statusbar"
       />
 
+    <Button
+      android:id="@+id/button_custom_shared"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/button_exclude_shared"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="16dp"
+      android:text="Custom Shared Element Transition"
+      />
+
   </RelativeLayout>
 
 </layout>

@@ -12,4 +12,9 @@
     <item name="android:windowEnterTransition">@transition/exclude_transition</item>
   </style>
 
+  <style name="AppTheme.Customize" parent="AppTheme">
+    <item name="android:windowSharedElementEnterTransition">@transition/playstore_transition</item>
+    <item name="android:windowSharedElementsUseOverlay">true</item>
+  </style>
+
 </resources>
