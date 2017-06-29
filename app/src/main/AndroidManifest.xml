@@ -22,6 +22,14 @@
     <activity android:name=".simple.SimpleSecondActivity" />
     <activity android:name=".simple_shared.SimpleSharedFirstActivity" />
     <activity android:name=".simple_shared.SimpleSharedSecondActivity" />
+    <activity
+      android:name=".simple_shared_exclude.ExcludeSharedFirstActivity"
+      android:theme="@style/AppTheme.Exclude"
+      />
+    <activity
+      android:name=".simple_shared_exclude.ExcludeSharedSecondActivity"
+      android:theme="@style/AppTheme.Exclude"
+      />
   </application>
 
 </manifest>

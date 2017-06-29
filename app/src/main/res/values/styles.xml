@@ -8,4 +8,8 @@
     <item name="colorAccent">@color/colorAccent</item>
   </style>
 
+  <style name="AppTheme.Exclude" parent="AppTheme">
+    <item name="android:windowEnterTransition">@transition/exclude_transition</item>
+  </style>
+
 </resources>
