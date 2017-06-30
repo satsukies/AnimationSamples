@@ -71,7 +71,6 @@ public class PlayStoreTransition extends Transition {
   }
 
   @Override public void captureEndValues(@NonNull TransitionValues transitionValues) {
-    //何してるか理解できてない
     View view = transitionValues.view;
 
     if (view.getWidth() <= 0 || view.getHeight() <= 0) {
@@ -80,10 +79,6 @@ public class PlayStoreTransition extends Transition {
     }
     //viewにサイズがある状態
     captureValues(transitionValues);
-    Bitmap bitmap = Bitmap.createBitmap(view.getWidth(), view.getHeight(), Bitmap.Config.ARGB_8888);
-    Canvas canvas = new Canvas(bitmap);
-    view.draw(canvas);
-    transitionValues.values.put("image", bitmap);
   }
 
   /**
